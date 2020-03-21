@@ -22,6 +22,19 @@ public class More2dArrayexample {
 			System.out.println();
 		}
 		
+		
+		
+		System.out.println("======USING NESTED LOOP TO RETRIEVE VALUES");
+		
+		for (int i=0; i<professions.length;i++) {
+			for (int y=0; y<professions[i].length; y++) {
+				
+				System.out.print(professions[i][y]);
+				
+			}
+			System.out.println();
+		}
+		
 	}
 }
 

@@ -18,25 +18,33 @@ public class Task02 {
 				{"Kenia","Nigeria","Ghana"}
 
 		};
-            int total =0;
-		for (int r=0 ; r<continents.length; r++) {
-			for (int c=0; c<continents[r].length; c++) {
-				System.out.print(continents[r][c]+" ");
-				total ++;
-			}
-			System.out.println();
-	}
-	 System.out.println("Total "+total);
-		System.out.println("=========Using advanced loop +========================");
-		
-		for (String[] continent:continents) {
-			for (String country:continent) {
-				
-				System.out.print(country+" ");
-				
-				
-	}
-			System.out.println();
-}
-}
+	          int sum  =0 ;
+            
+	          for (int i=0 ; i<continents.length;i++) {
+	        	  for (int y=0 ; y<continents[i].length;y++) {
+	        		
+	        		  System.out.println(continents[i][y]);
+	        		  sum++;
+		        	  
+	        		  
+	        		  
+	        	  }
+	        	  System.out.println(sum);
+	        	 
+	          }
+	          System.out.println("==using advanced for loop ");
+	          
+	           int count =0;
+	           
+	          for (String[]continent:continents) {
+	        	  for (String countries:continent) {
+	        		  
+	        		  System.out.print(countries+ " ");
+	        		  count++;
+	        	  }
+	        	  System.out.println();
+	          }
+	          
+	        	  System.out.println(count+"");
+	          }
 }

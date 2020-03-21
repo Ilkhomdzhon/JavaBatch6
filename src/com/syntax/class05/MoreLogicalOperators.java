@@ -32,13 +32,13 @@ public class MoreLogicalOperators {
 		
 		System.out.println("-----------------using strings-----------------------------------");
 		                  // TO compare String we use equals
-		String day1="Saturday";
-		
-		
-		if (day1.equals("Tuesday") || day1.equals("Wednesday")){
-			System.out.println("Today is SDLC class");
-		}else if (day1.equals)
-			
+//		String day1="Saturday";
+//		
+//		
+//		if (day1.equals("Tuesday") || day1.equals("Wednesday")){
+//			System.out.println("Today is SDLC class");
+//		}else if (day1.equals)
+//			
 	}
 
 }

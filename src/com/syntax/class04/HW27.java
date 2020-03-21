@@ -1,11 +1,10 @@
 package com.syntax.class04;
 
+import java.util.Scanner;
+
 public class HW27 {
 
-	
-	]import java.util.Scanner;
 
-	class Main {
 	 public static void main(String[] args){
 	   Scanner tab=new Scanner(System.in);
 	   System.out.println("Please enter your age");
@@ -21,4 +20,4 @@ public class HW27 {
 	 }
 
 	}
-}
+
