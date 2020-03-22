@@ -28,6 +28,7 @@ public class Dog {
 		
 		
 		System.out.println("=======================SPACE=======================");
+		
 		Dog dog2=new Dog();
 		dog2.breed="Alabay";
 		dog2.color="White";
