@@ -9,25 +9,26 @@ public class Question1 {
  		 * strings without a temporary variable?
  		 */
 
- 		int a = 100;
- 		int b = 200;
+ 		int a =15 ;
+ 		int b =10 ; 
+ 		
+ 		a=a+b; //15+10 =25  now a=>25
+ 		b=a-b; //25-10= 10 now b=>15
+ 		a=a-b ;
 
- 		a=a+b;//30
- 		b=a-b;//30-20=10
- 		a=a-b;
-
- 		System.out.println("The value of a = "+a);
- 		System.out.println("The value of b = "+b);
+ 		System.out.println("The value of a = " +a);
+ 		System.out.println("The value of b = " +b);
 
  		String str1="Day";
  		String str2="Night";
 
- 		str1=str1+str2;//DayNight-->8
- 		str2=str1.substring(0, str1.length()-str2.length());//Day
- 		str1=str1.substring(str2.length());//Night
+ 		str1=str1+str2;
+ 		str2=str1.substring(0, str1.length()-str2.length());
+ 		str1=str1.substring(3);
 
- 		System.out.println("The value of str1 = "+str1);
- 		System.out.println("The value of str2 = "+str2);
+ 		System.out.println("The value of ****str1 = "+str1);
+ 		System.out.println("The value of ****str2 = "+str2);
+ 		
 
  		//another way
  		String s1="Hello";
