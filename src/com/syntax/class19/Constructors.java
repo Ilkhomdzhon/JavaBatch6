@@ -18,7 +18,7 @@ public class Constructors {
 	}
      
 	public static void main(String[] args) {
-    	  Constructors obj= new Constructors(1,2);
+    	  Constructors obj= new Constructors();
     	  
 	
 }

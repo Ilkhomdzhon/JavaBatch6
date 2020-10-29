@@ -9,6 +9,7 @@ public class SyntaxProgrammer {
 		System.out.print("I study at Syntax");
 		System.out.print("I love Java");
 		System.out.println("!!!!");
+		System.out.println("Sigan");
 	}
 
 }

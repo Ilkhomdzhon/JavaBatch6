@@ -8,7 +8,7 @@ public class Task05 {
 //   Find out how many alpha characters are there in the String
 		
 		String combine= "Combination-372$$$$%%^^^&&";
-		combine=combine.replaceAll("[A-Z]", " ");
+		combine=combine.replaceAll("[^A-Za-z0-9]", " ");
 		System.out.println(combine);
 		
 		

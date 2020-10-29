@@ -31,7 +31,7 @@ public class MethodsRecap {
 			String[] words=obj.getWordsFromString(myString);
 			
 			for(String word:words) {
-				System.out.println(word);
+				System.out.print(word+" ");
 			}
 		}
 	}
